@@ -1,4 +1,4 @@
-from snowflake.snowpark.DataFrame import DataFrame 
+from snowflake.snowpark import DataFrame 
 from snowflake.snowpark.functions import col       
 
 def filter_by_country(session, table_name, country):
